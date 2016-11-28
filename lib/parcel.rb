@@ -10,3 +10,7 @@ end
   define_method(:parcels) do
     true
   end
+
+  define_method(:volume) do
+    @length * @width * @height
+  end
