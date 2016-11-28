@@ -1,0 +1,22 @@
+<h1>Ship Your Package</h1>
+<form action="/parcel">
+  <div class="form-group">
+    <label for="length">Enter the length of your package in inches:</label>
+    <input type="text" name="length" id="length">
+    <label for="width">Enter the width of your package in inches:</label>
+    <input type="text" name="width" id="width">
+    <label for="height">Enter the height of your package in inches:</label>
+    <input type="text" name="height" id="height">
+    <label for="weight">Enter the weight of your package in pounds:</label>
+    <input type="text" name="weight" id="weight">
+    <label for="distance">Enter the distance your package will travel in miles:</label>
+    <input type="text" name="distance" id="distance">
+    <label for="speed">Enter the speed of your package:</label>
+    <select name="speed">
+      <option value="Overnight">Overnight $100</option>
+      <option value="Speedy">Speedy 2 days $35</option>
+      <option value="Standard">Standard 5 - 7 days $10</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-info">Price My Package!</button>
+</form>
